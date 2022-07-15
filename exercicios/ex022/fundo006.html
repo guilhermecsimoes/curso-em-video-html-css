@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shorthand background</title>
+    <style>
+        body {
+            height: 100vh;
+            /*background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* SHORTHAND - BACKGROUND
+
+            color -> image -> position -> repeat -> [size] -> attachment
+
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+
+            background-size: cover;
+        }
+
+        main {
+            background-color: white;
+            width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam nesciunt beatae numquam enim qui incidunt neque sit dolores amet perspiciatis ipsum dignissimos similique voluptatum facilis, dolorem molestiae eius? Quaerat?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet illo aut recusandae deserunt, ab hic dolorum accusantium? Exercitationem, hic ut itaque nesciunt cumque quasi quia accusantium, atque, fuga at tempore?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eligendi ad quae quam maxime voluptates exercitationem commodi similique. Natus iste inventore quibusdam, voluptatibus nostrum quos nihil sunt nemo cumque repudiandae.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, repudiandae asperiores! Quas totam modi corporis assumenda quasi magnam! Eum magnam dolore repellat laudantium officiis asperiores, accusantium aperiam voluptatibus dicta hic!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est assumenda nobis ea magni placeat illo amet porro? Totam magnam officiis praesentium eos numquam! Soluta nisi numquam modi quis est asperiores?
+        </p>
+    </main>
+</body>
+</html>
